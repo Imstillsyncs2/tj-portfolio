@@ -34,11 +34,18 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+<section id="tsa" className="p-10 bg-gray-800">
+<h3 className="text-3xl font-bold mb-4">Technology Student Association</h3>
+        <h2 className="text-gray-400">Secretary Officer</h2>
+        <p className="text-gray-400">I am a Secretary officer for The Georgia Technology Student Association(GA TSA), a charter affiliate of National TSA and dedicated to middle and high school students enrolled or previously enrolled or that have an interest in engineering & technology education pathway and STEM Education programs. Georgia Technology Student Association (TSA) chapters prepare students to be successful inventors, designers, creative problem solvers, responsible citizens and leaders who will influence and build the future. </p>
+</section>
 
+      
       {/* About Section */}
       <section id="about" className="p-10 bg-gray-800">
         <h3 className="text-3xl font-bold mb-4">About Me</h3>
-        <p className="text-gray-400">I am passionate about film production, video editing, and audio design. This portfolio showcases my journey and work in this field.</p>
+        <h2 className="text-gray-400">TJ Robinson</h2>
+        <p className="text-gray-400">I am passionate about film production, video editing, and audio design. I am also an officer for The Technology Student Association(TSA),  </p>
       </section>
 
       {/* Contact Section */}
