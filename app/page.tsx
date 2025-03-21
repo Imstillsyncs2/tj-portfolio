@@ -44,12 +44,12 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section id="contact" className="p-10">
         <h3 className="text-3xl font-bold mb-4">Contact Me</h3>
-        <form className="space-y-4">
-          <input type="text" placeholder="Your Name" className="w-full p-2 rounded bg-gray-700 text-white" />
-          <input type="email" placeholder="Your Email" className="w-full p-2 rounded bg-gray-700 text-white" />
-          <textarea placeholder="Your Message" className="w-full p-2 rounded bg-gray-700 text-white"></textarea>
-          <button type="submit" className="bg-blue-500 p-2 rounded text-white hover:bg-blue-600">Send</button>
-        </form>
+        <form action="https://formsubmit.co/tjstudios476@gmail.com" method="POST" className="space-y-4">
+  <input type="text" name="name" placeholder="Your Name" required className="w-full p-2 rounded bg-gray-700 text-white" />
+  <input type="email" name="email" placeholder="Your Email" required className="w-full p-2 rounded bg-gray-700 text-white" />
+  <textarea name="message" placeholder="Your Message" required className="w-full p-2 rounded bg-gray-700 text-white"></textarea>
+  <button type="submit" className="bg-blue-500 p-2 rounded text-white hover:bg-blue-600">Send</button>
+</form>
       </section>
     </div>
   );
