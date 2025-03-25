@@ -34,29 +34,26 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-<section id="tsa" className="p-10 bg-gray-800">
-<h3 className="text-3xl font-bold mb-4">Technology Student Association</h3>
-        <h2 className="text-gray-400">Secretary Officer</h2>
-        <p className="text-gray-400">I am a Secretary officer for The Georgia Technology Student Association(GA TSA), a charter affiliate of National TSA and dedicated to middle and high school students enrolled or previously enrolled or that have an interest in engineering & technology education pathway and STEM Education programs. Georgia Technology Student Association (TSA) chapters prepare students to be successful inventors, designers, creative problem solvers, responsible citizens and leaders who will influence and build the future. </p>
-</section>
 
-      
       {/* About Section */}
       <section id="about" className="p-10 bg-gray-800">
         <h3 className="text-3xl font-bold mb-4">About Me</h3>
-        <h2 className="text-gray-400">TJ Robinson</h2>
-        <p className="text-gray-400">I am passionate about film production, video editing, and audio design. I am also an officer for The Technology Student Association(TSA),  </p>
+        <p className="text-gray-400">I am passionate about film production, video editing, and audio design. This portfolio showcases my journey and work in this field.</p>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="p-10">
         <h3 className="text-3xl font-bold mb-4">Contact Me</h3>
         <form action="https://formsubmit.co/tjstudios476@gmail.com" method="POST" className="space-y-4">
-  <input type="text" name="name" placeholder="Your Name" required className="w-full p-2 rounded bg-gray-700 text-white" />
-  <input type="email" name="email" placeholder="Your Email" required className="w-full p-2 rounded bg-gray-700 text-white" />
-  <textarea name="message" placeholder="Your Message" required className="w-full p-2 rounded bg-gray-700 text-white"></textarea>
-  <button type="submit" className="bg-blue-500 p-2 rounded text-white hover:bg-blue-600">Send</button>
-</form>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="/thank-you" />
+          
+          <input type="text" name="name" placeholder="Your Name" required className="w-full p-2 rounded bg-gray-700 text-white" />
+          <input type="email" name="email" placeholder="Your Email" required className="w-full p-2 rounded bg-gray-700 text-white" />
+          <textarea name="message" placeholder="Your Message" required className="w-full p-2 rounded bg-gray-700 text-white"></textarea>
+          
+          <button type="submit" className="bg-blue-500 p-2 rounded text-white hover:bg-blue-600">Send</button>
+        </form>
       </section>
     </div>
   );
